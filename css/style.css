@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto);
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif, serif;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    color: #f6f5f6;
+    user-select: none;
+}
+
+.navbar {
+    width: 100%;
+    margin: auto;
+}
+
+ul li {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}    
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.audio-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.audio-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.audio-img-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+h2 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+h6 {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    font-weight: 400;
+    color: #bcbcbc;
+}
+
+.audio-progress {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+}
+
+.progress {
+    grid-column: 1/-1;
+    height: 0.4rem;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+    position: relative;
+    background-color: #3d3a4b;
+}
+
+.progresss-head {
+    position: absolute;
+    background-color: #fafafa;
+    height: 1.2rem;
+    width: 1.2rem;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -32%);
+    border-radius: 100%;
+    z-index: 2;
+    box-shadow: 0 0 0 3px #aaabf8;
+}
+
+.progress-bar {
+    background-color: #fff;
+    height: 100%;
+    position: relative;
+    width: 0%;
+    border-radius: 0.8rem;
+}
+
+.current-time {
+    text-align: left;
+    margin-left: 0.5rem;
+}
+
+.duration {
+    text-align: right;
+    margin-right: 0.5rem;
+}
+
+.audio-btns {
+    width: 300px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn {
+    cursor: pointer;
+    border: unset;
+    box-shadow: unset;
+    background-color: unset;
+    font-size: 1.5rem;
+    color: #fafafa;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play {
+    background: linear-gradient(to right, #007f02, #00760b);
+    text-align: center;
+    border-radius: 100%;
+    padding: 1rem 1.2rem;
+}
+
+.skip-forward {
+    background: linear-gradient(to right, #007f02, #00760b);
+    text-align: center;
+    border-radius: 100%;
+    padding: 1rem 1.2rem;
+}
+
+.skip-back {
+    background: linear-gradient(to right, #007f02, #00760b);
+    text-align: center;
+    border-radius: 100%;
+    padding: 1rem 1.2rem;
+}
+
+.shuffle {
+    background: linear-gradient(to right, #007f02, #00760b);
+    text-align: center;
+    border-radius: 100%;
+    padding: 1rem 1.2rem;
+}
+
+.repeat {
+    background: linear-gradient(to right, #007f02, #00760b);
+    text-align: center;
+    border-radius: 100%;
+    padding: 1rem 1.2rem;
+}

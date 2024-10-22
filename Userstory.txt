@@ -1,0 +1,8 @@
+1.As a Music enthusiasts i want a Music Player to be able to listen to my playlist
+
+2.As a Music enthusiasts i want to have the ability to play & pause  
+
+3.As a Music enthusiasts i want to have the ability to skip tracks 
+
+
+                 
